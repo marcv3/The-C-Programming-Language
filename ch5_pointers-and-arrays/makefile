@@ -3,7 +3,7 @@ CC=g++
 EXAMPLE=1
 
 compile_all:
-	$(CC) ./examples/example01_funcs-ret-non-integers.c          -o ./work/example1
+	$(CC) ./examples/example01_types-operators-expressions.c          -o ./work/example1
 run:
 	./work/example$(EXAMPLE)
 clean:

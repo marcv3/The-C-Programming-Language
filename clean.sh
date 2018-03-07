@@ -27,3 +27,9 @@ else echo ""
 fi
 cd ..
 
+cd ch5_pointers-and-arrays
+if [ -d "work" ]; 
+then make clean_work
+else echo ""
+fi
+cd ..
